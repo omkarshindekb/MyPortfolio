@@ -8,6 +8,25 @@ padding:12px;
 position: fixed;
 }
 
+.matrix_text{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+.matrix_text:hover {
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+.matrix_bg{
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  overflow: hidden;
+}
+
 nav a{
 color:white;
 margin:15px;
@@ -210,7 +229,7 @@ h2 {
 }
 
 .project-img {
-  width: 70%;
+  width: 95%;
   height: 200px;
   border-radius: 10px;
   margin-bottom: 20px;
